@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Web graphics demonstration thing</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="main.js"></script>
+    </head>
+    <body>
+        <h1>Canvas demo</h1>
+        <hr>
+        <canvas id="canvas">Your browser does not support the canvas element.</canvas>
+        <br>
+        <select id="choice">
+            <option value="draw_basics">Lesson: Drawing Basics</option>
+            <option value="sun">ASGN: Sunrise</option>
+            <option value="city">ASGN: Cityscape</option>
+            <option value="anim_basics">Lesson: Animation Basics</option>
+            <option value="sun2">ASGN: Animated sunrise</option>
+            <option value="windy_r2l">ASGN: Windy day (Right to Left)</option>
+            <option value="windy_l2r">ASGN: Windy day (Left to Right)</option>
+            <option value="key_io_basics">Lesson: Mouse & Keyboard Input</option>
+            <option value="paint">Lesson: Simple Paint Demo</option>
+        </select>
+        <button id="btn">Update</button>
+        <br>
+        <br>
+        <input type="color" id="color-in" value="#000000">
+        <input type="number" id="size-in" value="3">
+        <span id="draw-mode">Draw</span>
+    </body>
+</html>
